@@ -1022,7 +1022,10 @@ a {
 
 
 /* start profile */
-
+.profile-page {
+   overflow: hidden;
+}
+    
 @media (max-width:767px) {
     .profile-page .info-box {
         flex-direction: column;
